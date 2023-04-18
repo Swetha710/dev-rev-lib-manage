@@ -1,0 +1,57 @@
+.bdwrapper{
+    padding:50px;
+    display: flex;
+}
+.bdimg-container{
+    flex:1;
+    width:70%;
+}
+.bdinfo-container{
+    flex:1;
+    padding: 0px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.bdimg{
+    width:70%;
+    height:70vh;
+    object-fit: fill;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.bdtitle{
+    margin: 30px;
+    font-weight: 200;
+    font-size: 30px;
+}
+.bddesc{
+   margin: 20px 0px; 
+}
+span{
+    font-size: 15px;
+}
+.bdauthor{
+    font-size: 20px;
+    font-weight: 300;
+}
+.stars-rating{
+    font-size: 15px;
+    padding-right: 40px;
+}
+.wishlistbtn{
+    padding: 15px;
+    border:1px solid teal;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+.wishlistbtn:hover{
+    background-color: rgb(227, 227, 227);
+}
+.bdsubject{
+    font-size: 10px;
+    flex:1
+}
+.bdpublishdate{
+    font-size: 10px;
+    flex:1;
+}

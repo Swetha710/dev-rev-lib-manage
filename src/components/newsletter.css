@@ -1,0 +1,36 @@
+.Newsletter{
+    height: 60vh;
+    background-color: #efe0d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.nltitle{
+    font-size: 70px;
+    margin: 20px;
+}
+.nldesc{
+    font-style: 4px;
+    font-weight: 30;
+    margin-bottom: 20px;
+}
+.nlinput-container{
+    width: 50%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+.nlinput{
+    border: none;
+    flex:8;
+    padding-left: 10px;
+}
+.nlbtn{
+    flex:1;
+    border: none;
+    background-color: teal;
+    color: white;
+}
